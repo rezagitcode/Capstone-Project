@@ -1,0 +1,7 @@
+.main{
+    box-sizing: border-box;
+    height: 80vh;
+    width:auto;
+    border: 2px solid blue;
+    background-color: blue;
+}
