@@ -1,5 +1,5 @@
+import '../Componentsdesign/Nav.css';
 function Nav(){
-    
     return(
         <>
         <nav>

@@ -1,0 +1,18 @@
+.links{
+    display: flex;
+    /* border: 2px solid green; */
+    padding: 0;
+}
+.link{
+    list-style: none;
+    /* border: 2px solid black; */
+    margin: 0 32px;
+}
+.link a{
+    text-decoration: none;
+    font-family:'Karla';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    color: #333333;
+}

@@ -1,3 +1,4 @@
+import '../Componentsdesign/Main.css';
 function Main(){
     return(
         <>

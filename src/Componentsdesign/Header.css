@@ -1,0 +1,13 @@
+.myHeader{
+    display: flex;
+    /* border: 2px solid red; */
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    position:sticky;
+    top:0px;
+    background-color: white;
+}
+.myHeader img{
+    margin: 0 18px;
+}
