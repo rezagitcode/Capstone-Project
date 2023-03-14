@@ -1,5 +1,7 @@
 .links{
     display: flex;
+    align-items: center;
+    justify-content: center;
     /* border: 2px solid green; */
     padding: 0;
 }
@@ -7,6 +9,9 @@
     list-style: none;
     /* border: 2px solid black; */
     margin: 0 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .link a{
     text-decoration: none;
@@ -15,4 +20,36 @@
     font-style: normal;
     font-size: 20px;
     color: #333333;
+}
+@media only screen and (max-width:1200px) {
+    .link{
+        margin: 0 25px;
+    }
+    .link a{
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width:800px) {
+    .link{
+        margin: 0 20px;
+    }
+    .link a{
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width:650px) {
+    .link{
+        margin: 0 10px;
+    }
+    .link a{
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width:400px) {
+    .link{
+        margin: 0 5px;
+    }
+    .link a{
+        font-size: 7px;
+    }
 }

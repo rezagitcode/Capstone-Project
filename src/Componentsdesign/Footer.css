@@ -1,11 +1,11 @@
 .myFooter{
-    height: 577px;
-    width: auto;
-    /* border: 1px solid green; */
+    border: 1px solid green;
     background-color: #EE9972;
     display: flex;
     align-items:flex-start;
     justify-content:center;
+    height: 577px;
+    width: auto;
 }
 .myFooter img{
     margin: 0px 30px;
@@ -17,7 +17,7 @@
     flex-direction: column;
 }
 .myFooter div{
-    /* border: 1px solid black; */
+    border: 1px solid black;
     margin: 0px 30px;
     position: relative;
     top: 100px;
@@ -27,7 +27,7 @@
     font-family: 'Markazi Text';
     padding: 0px;
     margin: 0px;
-    /* border: 1px solid green; */
+    border: 1px solid green;
 }
 .myFooter div h1{
     font-weight: bold;
@@ -43,4 +43,66 @@
     font-size: 20px;
     font-weight: bold;
     padding: 10px 0px;
+}
+@media only screen and (max-width:1200px) {
+    .myFooter{
+        height: 500px;
+        /* background-color: green; */
+    }
+    .myFooter img{
+        margin: 0px 20px;
+        height: 250px;
+    }
+    .myFooter div{
+        margin: 0px 20px;
+    }
+    .myFooter div h1{
+        font-size: 20px;
+    }
+    .myFooter div a, .myFooter div h2{
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width:800px) {
+    .myFooter{
+        height: 450px;
+        /* background-color: green; */
+    }
+    .myFooter img{
+        margin: 0px 20px;
+        height: 200px;
+    }
+    .myFooter div{
+        margin: 0px 15px;
+    }
+    .myFooter div h1{
+        font-size: 15px;
+    }
+    .myFooter div a, .myFooter div h2{
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width:650px) {
+    .myFooter{
+        height: 400px;
+        /* background-color: green; */
+    }
+    .myFooter img{
+        margin: 0px 10px;
+        height: 200px;
+    }
+    .myFooter div{
+        margin: 0px 7px;
+    }
+    .myFooter div h1{
+        font-size: 15px;
+    }
+    .myFooter div a, .myFooter div h2{
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width:500px){
+    .myFooter{
+       flex-wrap: wrap;
+    }
 }
