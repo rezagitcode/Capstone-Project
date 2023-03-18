@@ -1,8 +1,12 @@
-import '../Componentsdesign/Main.css';
+import Hero from "./Hero";
+import Specials from "./Specials";
 function Main(){
     return(
         <>
-        <main className="main">This is a Main</main>
+        <main className="main">
+            <Hero/>
+            <Specials/>
+        </main>
         </>
     );
 }

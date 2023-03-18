@@ -1,0 +1,64 @@
+.specials-container{
+    background-color: white;
+    padding: 30px;
+}
+.highlight{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+}
+.highlight h1{
+    color: #333333;
+    font-family: 'Markazi Text';
+    font-size: 60px;
+}
+.highlight button{
+    border: none;
+    background-color: #F4CE14;
+    color: #333333;
+    width: 200px;
+    height: 60px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: 'Karla';
+    font-weight: bold;
+}
+.cards{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5%;
+}
+@media only screen and (max-width:1100px) {
+    .highlight{
+        gap: 200px;
+    }
+    .highlight h1{
+        font-size: 50px;
+    }
+}
+@media only screen and (max-width:910px) {
+    .highlight{
+        gap: 100px;
+    }
+    .highlight h1{
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width:630px) {
+    .highlight{
+        gap: 100px;
+    }
+    .highlight h1{
+        font-size: 20px;
+    }
+    .highlight button{
+        width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 10px;
+    }
+}

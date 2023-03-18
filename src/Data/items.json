@@ -1,0 +1,23 @@
+[
+    {
+        "id":1,
+        "imageSrc": "../Assets/greek salad.jpg",
+        "itemName":"Greek\u00A0Salad",
+        "itemPrice":"$12.99",
+        "itemDesc":"A tantalizing mix of crispy lettuce, grilled chicken, bacon, parmesan cheese, and Caesar dressing. Deliciously satisfying."
+    },
+    {
+        "id":2,
+        "imageSrc":"../Assets/omlette.jpg",
+        "itemName":"Omelette",
+        "itemPrice":"$5.00",
+        "itemDesc":"Delicious omelette made with fluffy eggs, filled with your choice of ingredients such as cheese, ham, and vegetables. Served hot."
+    },
+    {
+        "id":3,
+        "imageSrc":"../Assets/vegsoup.jpg",
+        "itemName":"Veg\u00A0Soup",
+        "itemPrice":"$12.00",
+        "itemDesc":"Our veg soup is a hearty and flavorful blend of fresh vegetables, herbs, and spices, perfect for a healthy and satisfying meal."
+    }
+]

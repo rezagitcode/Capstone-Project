@@ -1,10 +1,9 @@
 import '../Componentsdesign/Footer.css';
-import myfooter from '../Assets/footlogo.png';
 function Footer(){
     return(
         <>
         <footer className="myFooter">
-          <img src={myfooter} alt="Footer" width="auto" height="281px"/>
+          <img src={'../Assets/footlogo.png'} alt="Footer" width="auto" height="281px"/>
           <div className="nav-links">
             <h1>Doormat&nbsp;Navigation</h1>
             <a href="/">Home</a>

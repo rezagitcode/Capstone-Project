@@ -1,0 +1,66 @@
+.cardContainer{
+    background-color: #EDEFEE;
+    height: 420px;
+    width: 300px;
+    border-radius: 20px;
+    margin: 5px;
+}
+.cardContainer>img{
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    height: 200px;
+    min-width: 300px;
+}
+.cardContainer h1{
+    font-size: 20px;
+    font-family: 'Karla';
+    font-weight: bold;
+}
+.details{
+    padding: 20px;
+}
+
+.itemName{
+    color: #333333;
+}
+.itemPrice{
+    color: Red;
+    position: relative;
+    left: 210px;
+    bottom: 25px;
+}
+.cardContainer p{
+    color: #333333;
+    font-size: 18px;
+    font-family: 'Karla';
+    font-weight: 500;
+}
+#orderDelivery{
+    display: flex;
+    gap: 25px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+#orderDelivery>h1{
+    color: #333333;
+    font-family: 'Karla';
+    font-size: 18px;
+    font-weight: bold;
+}
+.OBtn{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    text-decoration: none;
+}
+#orderBtn{
+    color: #333333;
+    background-color: #FACE14;
+    border: none;
+    height: 30px;
+    width: 90px;
+    border-radius: 20px;
+    font-family: 'Karla';
+    font-size: 18px;
+    font-weight: bold;
+}
