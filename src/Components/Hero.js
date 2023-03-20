@@ -9,7 +9,7 @@ function Hero(){
                 <p>We are a family-owned<br></br> Mediterranean Restaurant,<br></br> focussed on traditional recipes<br></br> served with a modern twist</p>
                 <button>Reserve a Table</button>
             </div>
-            <div className="image">
+            <div className="heroImage">
                 <img src={"../Assets/restauranfood.jpg"} alt="restaurantfood" width="auto" height="430"/>
             </div>
         </div>

@@ -1,0 +1,59 @@
+.containerTestimonials{
+    background-color: #FBDABB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5vw;
+}
+.containerTestimonials h1{
+    color: #495E57;
+    font-family: 'Markazi Text';
+    font-weight: bold;
+    font-size: calc(30px + 1vw);
+}
+.minCardsContainer{
+    display: flex;
+    gap: 1vw;
+    margin: 5vw;
+}
+.minCards{
+    background-color: white;
+    height: 15vw;
+    width: 15vw;
+    border-radius: 2vw;
+    padding: 1.3vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+.starContainer{
+    display: flex;
+    gap: 0.5vw;
+}
+.starContainer img{
+    height: 2vw;
+    width: 2vw;
+}
+.photoName{
+    display: flex;
+    gap: 1vw;
+    align-items: center;
+}
+.photoName img{
+    height: 5vw;
+    width: 5vw;
+    border-radius: 1vw;
+}
+.photoName h2{
+    font-family: 'Karla';
+    font-weight: bold;
+    font-size: 1.5vw;
+    color: #333333;
+}
+.comment{
+    font-family: 'Karla';
+    font-weight: bold;
+    font-size: 1.2vw;
+    line-height: 1.1vw;
+}

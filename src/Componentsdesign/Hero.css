@@ -1,6 +1,7 @@
 .hero-container{
     background-color: #495E57;
-    height: 450px;
+    /* height: 450px; */
+    padding: 30px;
     width: auto;
     display: flex;
     justify-content: center;
@@ -37,19 +38,17 @@
     border: none;
     margin-top: 60px;
 }
-.image{
-    margin-top: 40px;
-    margin-left: 200px;
+.heroImage{
+    position: relative;
+    top: 40px;
+    left: 200px;
 }
-.image img{
+.heroImage img{
     border-radius: 20px;
 }
 
 
 @media only screen and (max-width:1200px){
-.container{
-    height: 400px;
-}
 .content h1{
     font-size: 60px;
     margin-top: 35px;
@@ -68,19 +67,16 @@
     height: 60px;
     margin-top: 50px;
 }
-.image{
-    margin-top: 30px;
-    margin-left: 150px;
+.heroImage{
+    top: 30px;
+    left: 150px;
 }
-.image img{
+.heroImage img{
 height: 400px;
 }
 }
 
 @media only screen and (max-width:900px){
-    .container{
-        height: 370px;
-    }
     .content h1{
         font-size: 50px;
         margin-top: 30px;
@@ -99,19 +95,16 @@ height: 400px;
         height: 50px;
         margin-top: 40px;
     }
-    .image{
-        margin-top: 25px;
-        margin-left: 120px;
+    .heroImage{
+        top: 25px;
+        left: 120px;
     }
-    .image img{
+    .heroImage img{
     height: 370px;
     }
     }
 
     @media only screen and (max-width:800px){
-        .container{
-            height: 330px;
-        }
         .content h1{
             font-size: 40px;
             margin-top: 25px;
@@ -130,19 +123,16 @@ height: 400px;
             height: 35px;
             margin-top: 30px;
         }
-        .image{
-            margin-top: 20px;
-            margin-left: 90px;
+        .heroImage{
+            top: 20px;
+            left: 90px;
         }
-        .image img{
+        .heroImage img{
         height: 330px;
         }
         }
 
         @media only screen and (max-width:670px){
-            .container{
-                height: 250px;
-            }
             .content h1{
                 font-size: 35px;
                 margin-top: 20px;
@@ -161,18 +151,15 @@ height: 400px;
                 height: 25px;
                 margin-top: 20px;
             }
-            .image{
-                margin-top: 12px;
-                margin-left: 50px;
+            .heroImage{
+                top: 12px;
+                left: 50px;
             }
-            .image img{
+            .heroImage img{
             height: 250px;
             }
             }
             @media only screen and (max-width:530px){
-                .container{
-                    height: 180px;
-                }
                 .content h1{
                     font-size: 20px;
                     margin-top: 7px;
@@ -191,11 +178,11 @@ height: 400px;
                     height: 25px;
                     margin-top: 20px;
                 }
-                .image{
-                    margin-top: 20px;
-                    margin-left: 50px;
+                .heroImage{
+                    top: 20px;
+                    left: 50px;
                 }
-                .image img{
+                .heroImage img{
                 height: 150px;
                 }
                 }

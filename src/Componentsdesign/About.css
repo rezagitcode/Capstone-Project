@@ -1,0 +1,56 @@
+.aboutContainer{
+    background-color: #EDEFEE;
+    padding: 4vw;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    gap: 2vw;
+    justify-content: center;
+}
+.aboutDescription{
+    /* border: 1px solid red; */
+    width: 21vw;
+}
+.aboutImage{
+    /* border: 1px solid red; */
+    position: relative;
+    top: 5vw;
+}
+.aboutDescription h1{
+    color: #F4CE14;
+    font-family: 'Markazi Text';
+    font-size: 2.3vw;
+}
+.aboutDescription h2{
+    color: #495E57;
+    font-family: 'Markazi Text';
+    font-size: 2vw;
+}
+.aboutImage{
+    display: flex;
+    gap: 1vw;
+}
+.aboutImageBox img{
+        height: 21vw;
+        width:auto;
+        position: relative;
+        right: 5vw;
+       border-radius: 10px;
+}
+.aboutImageBox{
+    overflow: hidden;
+    height: 21vw;
+    width: 19vw;
+    border-radius: 1vw;
+    border: 1px solid #333333;
+}
+.aboutImageBox2{
+    position: relative;
+    bottom: 4vw;
+    right: 7vw;
+}
+.aboutDescription p{
+    font-family: 'Karla';
+    font-size: 1.3vw;
+    line-height: 1.5vw;
+    margin-top: 2vw;
+}
