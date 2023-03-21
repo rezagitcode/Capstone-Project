@@ -2,14 +2,16 @@
     background-color: #EDEFEE;
     height: 420px;
     width: 300px;
-    border-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
     margin: 5px;
+    margin-top: 2vw;
 }
 .cardContainer>img{
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
     height: 200px;
-    min-width: 300px;
+    width: 300px;
 }
 .cardContainer h1{
     font-size: 20px;

@@ -1,0 +1,12 @@
+#res-date{
+    background-color: green;
+    color: white;
+    border: none;
+    height: 3vw;
+    width: 20vw;
+    padding: 1vw;
+    border-radius: 1vw;
+}
+#res-date:focus{
+    border: red;
+}

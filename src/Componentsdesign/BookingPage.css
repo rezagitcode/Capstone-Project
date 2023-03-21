@@ -1,0 +1,6 @@
+.formContainer{
+    display: flex;
+    justify-content: center;
+    background-color: #495E57;
+    padding: 2vw;
+}
