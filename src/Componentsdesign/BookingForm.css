@@ -1,6 +1,28 @@
-#res-date{
-    background-color: green;
-    color: white;
+.formContainer{
+    background-color: #495E57;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2vw 3vw;
+    border-radius: 2vw;
+}
+.formContainer h1{
+    font-family: 'Markazi Text';
+    color: #EDEFEE;
+}
+.formInputs{
+    background-color: #EDEFEE;
+    color: #333333;
+    border: none;
+    height: 3vw;
+    width: 20vw;
+    padding: 1vw;
+    border-radius: 1vw;
+}
+option{
+    background-color: #EDEFEE;
+    color: #333333;
     border: none;
     height: 3vw;
     width: 20vw;
@@ -9,4 +31,21 @@
 }
 #res-date:focus{
     border: red;
+}
+label{
+    font-family: 'Karla';
+    color: #EDEFEE;
+    font-size: 2vw;
+    margin-top: 2vw;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.submitForm{
+    margin-top: 1vw;
+    background-color: #F4CE14;
+    font-family: 'Karla';
+    font-weight: bold;
+    font-size: 1vw;
 }
