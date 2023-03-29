@@ -3,7 +3,7 @@ import "../Componentsdesign/BookingPage.css";
 function Reservations(props){
     return(<>
     <div className="formContainerPage">
-    <BookingSlot/>
+    <BookingSlot bookSlotData={props.bookSlotData}/>
     </div>
     </>);
 }

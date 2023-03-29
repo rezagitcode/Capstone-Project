@@ -1,0 +1,21 @@
+.ConfirmedBooking {
+    background-color: #495E57;
+    color: #EDEFEE;
+    padding: 40px;
+    margin: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .ConfirmedBooking h2 {
+    font-family: 'Markazi Text', serif;
+    font-size: 2rem;
+  }
+  
+  .ConfirmedBooking p {
+    font-family: 'Karla', sans-serif;
+    font-size: 1.2rem;
+  }

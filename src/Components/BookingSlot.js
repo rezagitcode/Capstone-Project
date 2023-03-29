@@ -3,17 +3,16 @@ function BookingSlot(props) {
   return (
     <>
         <div className="bookingSlotContainer">
-          <div className="bookedTables">
-            <b className="heading">Booked&nbsp;Tables:</b>
-            <b>Date:{props.date? props.date:"00-00-00"}</b>
-            <b>Time:00:00</b>
-          </div>
-          <div className="availableTimes">
-            <b className="heading">Available&nbsp;Times:</b>
-            <b>Time</b>
-            <b>Time</b>
-            <b>Time</b>
-          </div>
+          <h1 id="reserve">Reservations</h1>
+        {props.bookSlotData.map((item, index) => {
+                return (<div key={index} className="subContainer">
+                <h1>Date: {item.date}</h1>
+                <h1>Reserved Time: {item.time}</h1>
+                <h1>Number of Guests: {item.guests}</h1>
+                <h1>Occasion: {item.occasion}</h1>
+                </div>);
+              })}
+          
         </div>
     </>
   );

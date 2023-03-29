@@ -1,34 +1,26 @@
 .bookingSlotContainer{
     background-color: #495E57;
     border-radius: 2vw;
-    padding: 2vw;
+    padding: 3vw;
     display: flex;
     flex-direction: column;
-    gap: 1vw;
-}
-.bookedTables{
-    display: flex;
-    justify-content: center;
     align-items: center;
-    background-color: #EDEFEE;
-    border-radius: 1vw;
-    padding: 0.5vw;
     gap: 1vw;
+    height: 25vw;
+    width: 30vw;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
-.availableTimes{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.bookingSlotContainer h1{
+    color: #495E57;
+    font-size: 2vw;
+    font-family: "Markazi Text";
+}
+.subContainer{
     background-color: #EDEFEE;
+    padding: 1vw;
     border-radius: 1vw;
-    padding: 0.5vw;
-    gap: 1vw;
 }
-.heading{
-    font-family: 'Markazi Text';
-    color: #333333;
-}
-b{
-    font-family: 'Karla';
-    color: #333333;
+#reserve{
+    color: #EDEFEE;
 }
