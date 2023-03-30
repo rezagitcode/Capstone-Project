@@ -49,3 +49,12 @@ form{
     font-weight: bold;
     font-size: 1vw;
 }
+.submitForm:disabled{
+    background-color: #EDEFEE;
+}
+#required{
+    color: red;
+    position: relative;
+    top: 0.5vw;
+    z-index: 10;
+}

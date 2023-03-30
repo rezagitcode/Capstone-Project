@@ -1,6 +1,11 @@
 import "../Componentsdesign/BookingForm.css";
-const submitChecker = ()=>{
-  return true;
+const submitChecker = (value)=>{
+  if(typeof value === "string"){
+    return true;
+  }
+  else{
+    return false;
+  }
 }
 function BookingForm(props) {
   
@@ -15,7 +20,7 @@ function BookingForm(props) {
       };
       props.submitForm(newFormData);
       props.setDataChecker(true);
-      submitChecker();
+      submitChecker(props.date);
       // code for submitting the form goes here
     };
 
@@ -23,7 +28,7 @@ function BookingForm(props) {
 
     return (
       <>
-        <div className="formContainer">
+        <div className="formContainer" aria-label="On Click">
           <h1>Reserve a Table</h1>
           <form onSubmit={handleSubmit}>
             <label htmlFor="res-date">Choose date</label>
@@ -34,6 +39,9 @@ function BookingForm(props) {
               value={props.date}
               onChange={(event) => props.handleDate(event.target.value)}
             />
+            { !props.date &&
+            <b id="required">*required</b>
+            }
             <label htmlFor="res-time">Choose time</label>
             <select
               id="res-time"
@@ -59,7 +67,12 @@ function BookingForm(props) {
               max="10"
               id="guests"
               value={props.guests}
-              onChange={(event) => props.setGuests(parseInt(event.target.value))}
+              onChange={(event) => {
+                const value = parseInt(event.target.value);
+                if (value >= 1 && value <= 10) {
+                  props.setGuests(value);
+                }
+              }}
             />
             <label htmlFor="occasion">Occasion</label>
             <select

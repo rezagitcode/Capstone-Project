@@ -60,6 +60,9 @@ function Main() {
       setBookSlotData(JSON.parse(localStorage.getItem("formData")) || []);
       setDataChecker(false);
     }
+    else{
+      setBookSlotData(JSON.parse(localStorage.getItem("formData")) || []);
+    }
     // eslint-disable-next-line
   },[dataChecker])
 
